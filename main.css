@@ -1,0 +1,96 @@
+body {
+    background-image: url(../img/space\ and\ stars.png);
+    font-family: cursive;
+}
+
+
+h2 {
+    color:midnightblue;
+    background-color: rgb(66, 0, 92);
+    text-align: center;
+    font-size: 5vw;
+}
+ol {
+   
+    background-color: brown;
+}
+
+li {
+    background-color: crimson;
+}
+#navbar {
+    background-color: green;
+    border-style: solid;
+    border-color: darkorange;
+    border-collapse: collapse;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar th {
+    border-style: solid;
+}
+
+header {
+    background-color: darkolivegreen;
+    color: darkviolet;
+    text-align: center;
+    font-size: 50px;
+    border: 3px solid white;
+}
+
+.navbar {
+    background-color: darkgray;
+    border: solid darkblue;
+    font-size: 20px;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar th {
+    border: solid darkblue;
+    padding: 5px    ;
+
+}
+footer {
+    background-color: blue;
+    color: whitesmoke;
+    font-size: 12px;
+    border: 3px solid crimson;
+    padding-left: 5px;
+}
+.profile {
+    background-color: blueviolet;
+    text-align: center;
+}
+.even-row {
+    background-color: #5764a5;
+}
+.dropdown {
+    display: inline-block;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: brown;
+    color: blueviolet;
+    padding: 5px;
+    box-shadow:  10px 5px 30px turquoise;
+}
+    
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.active {
+    background-color: lightcoral;
+}
+a {
+    color: navy;
+    text-decoration: none;
+}
+.td {
+    border-style: dotted black;
+}
+.profile p {
+    background-color: blue;
+}
